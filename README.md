@@ -1,10 +1,10 @@
 # R3D-SSH-Hunter
 R3D SSH Hunter: The Ultimate SSH Key and Bad Guy Tracker! 
 
-SSH Hunter is a tool for cyber threat intelligence professionals to automate the search for exposed SSH keys across the internet using Shodan. With asynchronous scanning and persistent tracking of known threat groups, SSH Hunter helps streamline the identification and analysis of potentially malicious SSH keys and configurations.
+SSH Hunter is a tool for cyber threat intelligence professionals to automate the search for adversary SSH keys across the internet using Shodan. With asynchronous scanning and persistent tracking of known threat groups, SSH Hunter helps streamline the identification and analysis of potentially malicious SSH keys and configurations.
 
 1. Introduction
-SSH Hunter is a tool designed for threat intelligence experts to aid in the discovery of exposed SSH keys. Utilizing the Shodan API, this tool allows asynchronous scanning to detect open SSH configurations, identify threat group affiliations, and filter out known benign entries, assisting in proactive threat detection.
+SSH Hunter is a tool designed for threat intelligence experts to aid in the discovery of adversary SSH keys. Utilizing the Shodan API, this tool allows asynchronous scanning to detect open SSH configurations, identify threat group affiliations, and filter out known benign entries, assisting in proactive threat detection.
 
 2. Key Features
 Asynchronous Scanning: Efficiently scan multiple IPs simultaneously with asyncio and aiohttp to maximize Shodan queries.
