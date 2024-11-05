@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Configuration: Replace 'YOUR_SHODAN_API_KEY' in the script with your Shodan API key.
 
 4. Usage
-5. 
+   
 Run the script with:
 
 python ssh_hunter-share.py
