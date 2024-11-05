@@ -16,14 +16,19 @@ Data Persistence: Saves known threat groups and junk hashes for continuity acros
 
 Prerequisites: Python 3.7+, Shodan API Key, dependencies in requirements.txt.
 Install required packages:
+
 pip install -r requirements.txt
+
 Configuration: Replace 'YOUR_SHODAN_API_KEY' in the script with your Shodan API key.
 
 4. Usage
+5. 
 Run the script with:
+
 python ssh_hunter-share.py
 
 Function Descriptions:
+
 load_threat_groups(): Loads threat group mappings from threat_groups.json.
 load_junk_hashes(): Loads junk hashes from junk_hashes.json to filter out irrelevant results.
 
